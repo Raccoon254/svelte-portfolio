@@ -42,14 +42,11 @@
 					</div>
 					<div class="text-left col-span-2">
 						<p class="mb-4">
-							Hi, I'm Ken Tom, the developer behind Status Saver. With a passion for creating
-							intuitive and user-friendly mobile applications, I strive to enhance the way
-							people interact with technology in their daily lives.
+							Hi, I'm Ken Tom, the developer behind Projects like Status Saver, Jestorm, Cline, and
+							many more. I'm a passionate developer with a keen interest in technology and software
 						</p>
 						<p class="mb-4">
-							Status Saver is just one of my projects aimed at simplifying and improving the
-							WhatsApp experience for users. I'm always working on new ideas and improvements,
-							so stay tuned for more exciting apps!
+							This website is a showcase of my work and a platform to connect with me. Feel free to reach out to me for any queries or collaborations, I'm always open to new opportunities and challenges, and I'm looking forward to working with you. Thank you for visiting my website.
 						</p>
 						<div class="flex flex-wrap justify-start gap-4 mt-4">
 							<a
