@@ -173,13 +173,13 @@
 				z-index: 1000;	
 				width: 100px;
 				height: 100%;
-				background-image: linear-gradient(to left, rgba(0, 0, 0, 1), transparent);
+				background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent);
 		}
 
     .radial-gradient {
         width: 300px;
         height: 300px;
-        background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
         filter: blur(300px);
         z-index: 700;
         animation: wobble 5s infinite;

@@ -74,7 +74,7 @@
 				class="rounded-2xl flex flex-col items-center md:flex-row ring-2 ring-opacity-5 ring-white overflow-hidden transition ring-offset-4 ring-offset-dark hover:ring-opacity-10 hover:scale-[101%] cursor-pointer"
 				class:md:flex-row-reverse={index % 2 === 0}
 			>
-				<img src={project.image} alt={project.title} class="w-full md:w-1/2 h-72 object-cover" />
+				<img src={project.image} alt={project.title} class="w-full md:w-1/2 h-44 md:h-72 object-cover" />
 				<div class="p-6 md:w-1/2">
 					<h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">
 						{project.title}
