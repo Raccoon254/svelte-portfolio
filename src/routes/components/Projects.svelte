@@ -54,17 +54,22 @@
   ];
 </script>
 
-<section class="py-16">
-      <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+<section class="pt-16 md:pt-32">
+      <h2 data-aos="fade-up" class="text-3xl font-bold text-center mb-2">Projects</h2>
+      <div data-aos="fade-in">
+          <p class="text-center text-gray-500 dark:text-gray-400 mb-16 md:mb-24">Here are some of the projects I've worked on. Click on the project to view more details.</p>
+      </div>
       <div class="grid grid-cols-1 gap-8">
           {#each projects as project, index}
           <!-- if index is even flex row reverse else flex row -->
-              <div class="rounded-lg flex flex-col md:flex-row ring overflow-hidden transition hover:ring-opacity-20 cursor-pointer" class:md:flex-row-reverse={index % 2 === 0}>
-                  <img src={project.image} alt={project.title} class="w-full h-48 object-cover" />
-                  <div class="p-6">
-                      <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{project.title}</h3>
+              <div class="rounded-2xl flex flex-col items-center md:flex-row ring-2 ring-opacity-5 ring-white overflow-hidden transition ring-offset-4 ring-offset-dark hover:ring-opacity-10 cursor-pointer" class:md:flex-row-reverse={index % 2 === 0}>
+                  <img src={project.image} alt={project.title} class="w-full md:w-1/2 h-72 object-cover" />
+                  <div class="p-6 md:w-1/2">
+                      <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">
+                        {project.title}
+                      </h3>
                       <p class="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
-                      <div class="flex justify-between">
+                      <div class="flex items-center gap-3">
                           <a href={project.projectUrl} class="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-300">Visit Project</a>
                           <a href={project.githubUrl} class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300 transition-colors duration-300">
                               <i class="fab fa-github"></i> GitHub

@@ -54,27 +54,27 @@
     <div class="max-w-5xl mt-8 w-full">
         <div class="flex flex-col gap-3 md:flex-row justify-between items-center mb-12">
             <div class="md:w-1/2">
-                <div class="flex gap-2 items-center h-16 overflow-clip mb-2">
+                <div data-aos="zoom-in" class="flex gap-2 items-center h-16 overflow-clip mb-2">
 									<img src="/logo-light.png" alt="Steve Tom" class="w-10 object-cover" />
 									<h1 class="text-3xl font-bold">kenTom</h1>
 									<span class="text-xs pl-1 pb-10 opacity-50 font-thin">v8.1.4</span>
 								</div>
-                <p class="text-xl font-thin mb-6">
+                <p data-aos="fade-left" class="text-xl font-thin mb-6">
 									I am an indie developer with a passion for programming and technology. I am skilled in Java, Rust, JavaScript and many other programming languages. 
 								</p>
                 <div class="flex space-x-4">
-                    <a href="#contact" class="bg-gray-50 text-gray-900 px-4 py-2 rounded-full hover:bg-gray-300 transition duration-300 ring-1 ring-offset-2 ring-offset-dark ring-green-400 gap-2 center">
+                    <a data-aos="fade-right" href="#contact" class="bg-gray-50 text-gray-900 px-4 py-2 rounded-full hover:bg-gray-300 transition duration-300 ring-1 ring-offset-2 ring-offset-dark ring-green-400 gap-2 center">
 											<i class="fas fa-envelope"></i>
 												Hire Me
                     </a>
-                    <a href="https://github.com/Raccoon254" target="_blank" rel="noopener"
+                    <a data-aos="fade-left" href="https://github.com/Raccoon254" target="_blank" rel="noopener"
 										 class="bg-transparent border border-white px-4 py-2 rounded-full hover:bg-white hover:text-gray-900 center transition duration-300 ring-1 ring-offset-2 ring-offset-dark gap-2 ring-green-400">
 											<i class="devicon-github-original"></i>
                         GitHub
                     </a>
                 </div>
             </div>
-            <div class="w-96 h-96 md:w-[30rem] rotate-2 center relative">
+            <div data-aos="fade-up" class="w-96 h-96 md:w-[30rem] rotate-2 center relative">
 							<!-- Gradient behind the image  -->
 								<section class="z-0 radial-gradient"></section>
                 <img class="z-10 user-image" src="/steve-tom-half-image.png" alt="Bloc logo" />
