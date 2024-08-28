@@ -8,35 +8,41 @@
       githubUrl: string;
   };
 
-  // Array of project objects
   const projects: Project[] = [
+    {
+      title: "Status Saver",
+      description: "An android kotlin application that allows users to save statuses from WhatsApp. It also allows users to share statuses with friends and manage saved statuses.",
+      image: "/path/to/status-saver-image.jpg",
+      projectUrl: "https://status-saver.vercel.app",
+      githubUrl: "https://github.com/Raccoon254/status-saver-docs"
+    },
       {
           title: "Scholarspace.io",
           description: "A Laravel-based web application facilitating assignment help services. Features include real-time chat, payment processing, and notification systems.",
           image: "/path/to/scholarspace-image.jpg",
           projectUrl: "https://scholarspace.me",
-          githubUrl: "#"
+          githubUrl: "https://github.com/Raccoon254/Scholarspace.io"
       },
       {
           title: "Project InternLink",
           description: "A revolutionary platform connecting students with internship opportunities. Simplifies the application process and bridges students with their future careers.",
           image: "/path/to/internlink-image.jpg",
           projectUrl: "https://intern.co.ke",
-          githubUrl: "#"
+          githubUrl: "https://github.com/FutureSpace-Kenya/InternLink"
       },
       {
           title: "FutureSpace",
           description: "A digital innovation company focusing on solving today's challenges. Services include digital innovation, automation, cybersecurity, and web development.",
           image: "/path/to/futurespace-image.jpg",
           projectUrl: "https://futurespace.vercel.app/",
-          githubUrl: "#"
+          githubUrl: "https://github.com/FutureSpace-Kenya"
       },
       {
           title: "Cline",
           description: "A comprehensive client management tool for freelancers. Streamlines operations, improves efficiency, and enhances communication with clients.",
           image: "/path/to/cline-image.jpg",
           projectUrl: "#",
-          githubUrl: "#"
+          githubUrl: "https://github.com/Raccoon254/cline"
       }
   ];
 </script>
