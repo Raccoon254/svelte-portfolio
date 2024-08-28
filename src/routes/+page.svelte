@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Projects from './components/Projects.svelte';
+	import Contact from './components/Contact.svelte';
     onMount(() => {
         // Any necessary onMount logic can go here
     });
@@ -99,6 +100,10 @@
 
 			<div>
 				<Projects />
+			</div>
+
+			<div>
+				<Contact />
 			</div>
 
     </div>
