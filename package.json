@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"aos": "^2.3.4",
 		"daisyui": "^4.12.10"
 	}
 }
