@@ -84,7 +84,7 @@
         
 				<div class="mt-16 md:mt-32">
 					<div class="skills-scroll-container relative">
-						<div class="end-l bg-gradient-to-r from-black to-transparent h-full absolute top-1/2 -translate-y-1/2 left-0"></div>
+						<div class="end-l bg-gradient-to-r from-dark to-transparent absolute top-1/2 -translate-y-1/2 left-0"></div>
 							<div class="skills-scroll py-8" bind:this={scrollBar}>
 									{#each skills as skill}
 											<div
@@ -94,7 +94,7 @@
 											</div>
 									{/each}
 							</div>
-							<div class="end-r bg-gradient-to-l from-black to-transparent  absolute top-1/2 -translate-y-1/2 right-0"></div>
+							<div class="end-r bg-gradient-to-l from-dark to-transparent  absolute top-1/2 -translate-y-1/2 right-0"></div>
 					</div>
 			</div>
 
@@ -165,13 +165,13 @@
 		.end-l {
 				z-index: 1000;
 				width: 100px;
-				height: 100%;
+				height: 49%;
 		}
 
 		.end-r {
 				z-index: 1000;	
 				width: 100px;
-				height: 100%;
+				height: 49%;
 		}
 
     .radial-gradient {
