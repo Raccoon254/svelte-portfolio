@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Projects from './components/Projects.svelte';
     onMount(() => {
         // Any necessary onMount logic can go here
     });
@@ -49,7 +50,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </svelte:head>
 
-<main class="h-screen text-white flex flex-col justify-center items-center p-8">
+<main class="min-h-screen text-white flex flex-col justify-center items-center p-8">
     <div class="max-w-5xl mt-8 w-full">
         <div class="flex flex-col gap-3 md:flex-row justify-between items-center mb-12">
             <div class="md:w-1/2">
@@ -96,6 +97,9 @@
 					</div>
 			</div>
 
+			<div>
+				<Projects />
+			</div>
 
     </div>
 </main>

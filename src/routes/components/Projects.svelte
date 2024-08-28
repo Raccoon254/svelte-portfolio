@@ -1,0 +1,73 @@
+<script lang="ts">
+  // Define a type for our project objects
+  type Project = {
+      title: string;
+      description: string;
+      image: string;
+      projectUrl: string;
+      githubUrl: string;
+  };
+
+  // Array of project objects
+  const projects: Project[] = [
+      {
+          title: "Scholarspace.io",
+          description: "A Laravel-based web application facilitating assignment help services. Features include real-time chat, payment processing, and notification systems.",
+          image: "/path/to/scholarspace-image.jpg",
+          projectUrl: "https://scholarspace.me",
+          githubUrl: "#"
+      },
+      {
+          title: "Project InternLink",
+          description: "A revolutionary platform connecting students with internship opportunities. Simplifies the application process and bridges students with their future careers.",
+          image: "/path/to/internlink-image.jpg",
+          projectUrl: "https://intern.co.ke",
+          githubUrl: "#"
+      },
+      {
+          title: "FutureSpace",
+          description: "A digital innovation company focusing on solving today's challenges. Services include digital innovation, automation, cybersecurity, and web development.",
+          image: "/path/to/futurespace-image.jpg",
+          projectUrl: "https://futurespace.vercel.app/",
+          githubUrl: "#"
+      },
+      {
+          title: "Cline",
+          description: "A comprehensive client management tool for freelancers. Streamlines operations, improves efficiency, and enhances communication with clients.",
+          image: "/path/to/cline-image.jpg",
+          projectUrl: "#",
+          githubUrl: "#"
+      }
+  ];
+</script>
+
+<section class="py-16 bg-gray-100 dark:bg-gray-800">
+  <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {#each projects as project}
+              <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                  <img src={project.image} alt={project.title} class="w-full h-48 object-cover" />
+                  <div class="p-6">
+                      <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{project.title}</h3>
+                      <p class="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+                      <div class="flex justify-between">
+                          <a href={project.projectUrl} class="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-300">Visit Project</a>
+                          <a href={project.githubUrl} class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300 transition-colors duration-300">
+                              <i class="fab fa-github"></i> GitHub
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          {/each}
+      </div>
+      <div class="text-center mt-12">
+          <p class="text-gray-500 dark:text-gray-400 mb-4">This section is still under construction. More projects will be added soon...</p>
+          <a href="#" class="inline-block bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-colors duration-300">View All Projects</a>
+      </div>
+  </div>
+</section>
+
+<style>
+  /* Any additional custom styles can go here */
+</style>
