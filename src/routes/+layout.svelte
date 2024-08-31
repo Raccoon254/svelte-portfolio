@@ -42,7 +42,7 @@
 					</div>
 					<div class="text-left col-span-2">
 						<p class="mb-4">
-							Hi, I'm Ken Tom, the developer behind Projects like Status Saver, Jestorm, Cline, and
+							Hi, I'm KenTom[Steve Osoro Tom], the developer behind Projects like Status Saver, Jestorm, Cline, and
 							many more. I'm a passionate developer with a keen interest in technology and software
 						</p>
 						<p class="mb-4">
