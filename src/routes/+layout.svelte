@@ -100,6 +100,3 @@
 		</div>
 	</footer>
 </div>
-
-<style>
-</style>
