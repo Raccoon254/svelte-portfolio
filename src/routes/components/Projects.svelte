@@ -18,6 +18,14 @@
 			githubUrl: 'https://github.com/Raccoon254/status-saver-docs',
 		},
 		{
+			title: 'JeStorm',
+			description:
+				'A project management tool for developers. Features include real-time chat, payment processing, and notification systems.',
+			image: 'jestorm.png',
+			projectUrl: 'https://jestorm.vercel.app',
+			githubUrl: 'https://github.com/Raccoon254/',
+		},
+		{
 			title: 'Scholarspace',
 			description:
 				'A Laravel-based web application facilitating assignment help services. Features include real-time chat, payment processing, and notification systems.',
