@@ -233,7 +233,7 @@
 		width: 300px;
 		height: 300px;
 		background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
-		filter: blur(300px);
+		filter: blur(200px);
 		z-index: 700;
 		animation: wobble 5s infinite;
 	}
