@@ -85,7 +85,7 @@
 				<div data-aos="zoom-in" class="flex gap-2 items-center h-16 overflow-clip mb-2">
 					<img src="/logo-light.png" alt="Steve Tom" class="w-10 object-cover" />
 					<h1 class="text-3xl font-bold">kenTom</h1>
-					<span class="text-xs pl-1 pb-10 opacity-50 font-thin">v8.1.4</span>
+					<span class="text-xs pl-1 pb-10 opacity-50 font-thin">v2.1.4</span>
 				</div>
 				<p data-aos="fade-left" class="text-xl font-thin mb-6">
 					I am an indie developer with a passion for programming and technology. I am skilled in
